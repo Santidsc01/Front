@@ -1,0 +1,21 @@
+.navbar {
+    background-color: lightgreen; /* Color de fondo verde claro */
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 1px solid black; /* Línea divisoria negra en la parte inferior */
+}
+
+.logo {
+    width: 75px; /* Ancho del logo */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-right: 10px; /* Espaciado a la derecha del logo */
+    margin-left: 600px; /* Mueve el logo hacia la derecha */
+}
+
+.title {
+    margin: 0; /* Elimina el margen del título */
+    font-family: Arial, sans-serif; /* Cambia el tipo de letra */
+    color: white; /* Cambia el color de la letra a blanco */
+    font-size: 30px;
+}

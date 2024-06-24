@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+// App.js
+import React from 'react';
 import './App.css';
+import Navbar from './Navbar'; // Importa el componente de la barra superior
+import Mapa from './Mapa'; // Importa el componente del mapa
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Navbar /> {/* Utiliza el componente de la barra superior */}
+            <Mapa /> {/* Utiliza el componente del mapa */}
+        
+            {/* Aquí puedes agregar más contenido */}
+        </div>
+    );
 }
 
 export default App;

@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #FBFDE7; /* Cambia el color de fondo según sea necesario */
+}
+

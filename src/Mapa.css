@@ -1,0 +1,20 @@
+/* Mapa.css */
+.map-container {
+    position: relative;
+}
+
+.map-img {
+    width: 50%;
+    height: auto;
+}
+
+.highlighted-area {
+    position: absolute; /* Cambiado a position: absolute; */
+    border: 2px solid yellow; /* Borde amarillo */
+    background-color: rgba(255, 255, 0, 0.5); /* Fondo amarillo semi-transparente */
+    /* Ajusta la posición del área resaltada */
+    top: 50px; /* Distancia desde la parte superior */
+    left: 5000px; /* Distancia desde la izquierda */
+    width: 10000px; /* Ancho del área resaltada */
+    height: 100px; /* Altura del área resaltada */
+}
